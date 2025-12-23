@@ -1,5 +1,8 @@
+use std::collections::HashSet;
+
 fn unique(a: Vec<i32>) -> Vec<i32> {
-    todo!()
+    let set: HashSet<i32> = a.into_iter().collect();
+    set.into_iter().collect()
 }
 
 // advanced 1: use generic types
